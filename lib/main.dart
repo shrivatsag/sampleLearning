@@ -21,7 +21,9 @@ class Test extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 primary: Colors.red,
               ),
-              onPressed: () {},
+              onPressed: () {
+                print('you clicked me');
+              },
               child: const Text('click me')),
         ),
         floatingActionButton: FloatingActionButton(
